@@ -1,11 +1,13 @@
+# Docker Image
+[https://hub.docker.com/r/webuilder240/ogp_parse_api/]
+
+# WebAPI (Heroku)
+[https://powerful-sierra-79664.herokuapp.com/] 
+
 # How to Use
 
 ```
-  docker compose up -d
-```
-
-```
-  curl http://localhost:8080/?url=http://ogp.me | jq
+  curl https://powerful-sierra-79664.herokuapp.com/?url=http://ogp.me | jq
 
   {
     "image": "http://ogp.me/logo.png",
@@ -30,7 +32,7 @@
 #### Success
 
 ```
-  curl http://localhost:8080/?url=http://ogp.me | jq
+  curl https://powerful-sierra-79664.herokuapp.com/?url=http://ogp.me | jq
 
   {
     "image": "http://ogp.me/logo.png",
@@ -43,7 +45,7 @@
 #### Error
 
 ```
-  curl http://localhost:8080/?url= | jq
+  curl https://powerful-sierra-79664.herokuapp.com/?url= | jq
 
   {
     error: '正しいURLを設定してください'
@@ -72,8 +74,14 @@
 
 # Runnning Test
 
-```
+``` 
+bundle install
 bundle exec rake test
 ```
 
-# Docker Image
+# Run Locally (Docker Componse)
+
+``` 
+docker-compose up
+```
+
