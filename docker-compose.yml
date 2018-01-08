@@ -1,0 +1,13 @@
+redis:
+  image: redis:latest
+
+app:
+  build: .
+  ports:
+    - '8080:8080'
+  volumes:
+   - ".:/usr/src/app"
+  environment:
+    REDIS_URL: 'redis://redis:6379'
+  links:
+   - redis

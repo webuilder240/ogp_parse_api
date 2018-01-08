@@ -1,0 +1,6 @@
+tmp/
+vendor/bundler
+.bundle
+test.sh
+.idea
+dump.rdb
