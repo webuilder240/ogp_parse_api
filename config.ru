@@ -1,2 +1,2 @@
-require './app.rb'
-run App
+require './app'
+run App.new

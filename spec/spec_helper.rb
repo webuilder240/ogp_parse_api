@@ -7,7 +7,7 @@ require File.expand_path '../../app.rb', __FILE__
 
 module RSpecMixin
   include Rack::Test::Methods
-  def app() App end
+  def app() App.new end
 end
 
 RSpec.configure do |c|
