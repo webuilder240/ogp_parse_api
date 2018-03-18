@@ -43,7 +43,9 @@ class App
   end
 
   def logger
-    Logger.new($stdout)
+    l = Logger.new($stderr)
+    l.level = Logger::DEBUG
+    l
   end
 
   def set_redis
