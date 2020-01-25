@@ -55,10 +55,10 @@
 # Requirements
 
 ## Ruby Version
-- 2.4.x, 2.5.x
+- 2.4.x, 2.5.x, 2.6.x
 
 ## Redis
-- latest (2.x, 3.x)
+- latest
 
 # Configure
 
