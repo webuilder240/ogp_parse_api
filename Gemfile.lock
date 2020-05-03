@@ -7,12 +7,17 @@ GEM
     kgio (2.11.3)
     mini_portile2 (2.4.0)
     mock_redis (0.23.0)
+    nio4r (2.5.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     opengraph_parser (0.2.3)
       addressable
       nokogiri
     public_suffix (4.0.4)
+    puma (4.3.3)
+      nio4r (~> 2.0)
+    puma-heroku (1.1.0)
+      puma (>= 3.0, < 5.0)
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -42,6 +47,8 @@ PLATFORMS
 DEPENDENCIES
   mock_redis
   opengraph_parser
+  puma
+  puma-heroku
   rack
   rack-test
   rake

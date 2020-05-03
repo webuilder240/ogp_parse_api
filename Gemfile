@@ -11,3 +11,8 @@ group :development, :test do
   gem "mock_redis"
   gem 'rack-test'
 end
+
+group :production do
+  gem "puma"
+  gem "puma-heroku"
+end
