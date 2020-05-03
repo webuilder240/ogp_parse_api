@@ -68,9 +68,11 @@
 - REDIS_TTL
   - Expire key TTL (Default: 604800 [1 week])
 
-## Unicorn
+## Puma
 - WEB_CONCURRENCY
-  - Unicorn Worker Count (Default: 3)
+  - Puma Worker Count (Default: 1)
+- MAX_THREADS
+  - Puma Thread Count (Default: 5)
 
 # Runnning Test
 

@@ -23,4 +23,4 @@ RUN bundle install -j4 --without development test
 
 RUN mkdir tmp
 COPY . /usr/src/app
-CMD bundle exec unicorn -c config/unicorn.rb
+CMD bundle exec puma -C config/puma.rb
