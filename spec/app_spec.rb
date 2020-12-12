@@ -56,7 +56,7 @@ describe "My Sinatra Application" do
       suppose = {
         "title"=>"Open Graph protocol",
         "description"=>"The Open Graph protocol enables any web page to become a rich object in a social graph.",
-        "image"=>"http://ogp.me/logo.png",
+        "image"=>"https://ogp.me/logo.png",
         "url"=>"http://ogp.me"
       }
       body = JSON.parse(last_response.body)

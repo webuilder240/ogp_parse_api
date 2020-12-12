@@ -3,38 +3,38 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    diff-lcs (1.4.2)
+    diff-lcs (1.4.4)
     mini_portile2 (2.4.0)
-    mock_redis (0.25.0)
-    nio4r (2.5.2)
-    nokogiri (1.10.9)
+    mock_redis (0.26.0)
+    nio4r (2.5.4)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     opengraph_parser (0.2.3)
       addressable
       nokogiri
-    public_suffix (4.0.5)
-    puma (4.3.5)
+    public_suffix (4.0.6)
+    puma (5.1.1)
       nio4r (~> 2.0)
-    puma-heroku (1.1.0)
-      puma (>= 3.0, < 5.0)
+    puma-heroku (2.0.0)
+      puma (>= 5.0, < 6.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rake (13.0.1)
-    redis (4.2.1)
-    rspec (3.9.0)
-      rspec-core (~> 3.9.0)
-      rspec-expectations (~> 3.9.0)
-      rspec-mocks (~> 3.9.0)
-    rspec-core (3.9.2)
-      rspec-support (~> 3.9.3)
-    rspec-expectations (3.9.2)
+    redis (4.2.5)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.0)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-mocks (3.9.1)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-support (3.9.3)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.0)
 
 PLATFORMS
   ruby
@@ -51,7 +51,7 @@ DEPENDENCIES
   rspec
 
 RUBY VERSION
-   ruby 2.7.1p83
+   ruby 2.7.2p137
 
 BUNDLED WITH
    2.1.4
