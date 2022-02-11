@@ -6,14 +6,14 @@ GEM
     diff-lcs (1.4.4)
     mini_portile2 (2.4.0)
     mock_redis (0.26.0)
-    nio4r (2.5.4)
+    nio4r (2.5.8)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     opengraph_parser (0.2.3)
       addressable
       nokogiri
     public_suffix (4.0.6)
-    puma (5.1.1)
+    puma (5.6.2)
       nio4r (~> 2.0)
     puma-heroku (2.0.0)
       puma (>= 5.0, < 6.0)
